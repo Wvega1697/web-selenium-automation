@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[Launch Browser]]>
@@ -19,17 +19,53 @@
     <line>
       <![CDATA[Close Browser]]>
     </line>
+    <line>
+      <![CDATA[Launch Browser]]>
+    </line>
+    <line>
+      <![CDATA[Click Chapter 1]]>
+    </line>
+    <line>
+      <![CDATA[Click Radio button]]>
+    </line>
+    <line>
+      <![CDATA[Select dropdown by value in chapter 1]]>
+    </line>
+    <line>
+      <![CDATA[Navigate Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Launch Browser]]>
+    </line>
+    <line>
+      <![CDATA[Click Chapter 1]]>
+    </line>
+    <line>
+      <![CDATA[Click Radio button]]>
+    </line>
+    <line>
+      <![CDATA[Select dropdown by value in chapter 1]]>
+    </line>
+    <line>
+      <![CDATA[Navigate Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8319" started-at="2020-09-26T14:24:38Z" finished-at="2020-09-26T14:24:46Z">
+  <suite name="RegressionAutomatedQA" duration-ms="24459" started-at="2020-09-26T15:55:12Z" finished-at="2020-09-26T15:55:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8319" started-at="2020-09-26T14:24:38Z" finished-at="2020-09-26T14:24:46Z">
+    <test name="TC001" duration-ms="8599" started-at="2020-09-26T15:55:12Z" finished-at="2020-09-26T15:55:21Z">
       <class name="com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@419c5f1a]" name="beforeTest" is-config="true" duration-ms="3250" started-at="2020-09-26T14:24:38Z" finished-at="2020-09-26T14:24:41Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@68c4039c]" name="beforeTest" is-config="true" duration-ms="3506" started-at="2020-09-26T15:55:12Z" finished-at="2020-09-26T15:55:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC001()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@419c5f1a]" name="TC001" duration-ms="5031" started-at="2020-09-26T14:24:41Z" finished-at="2020-09-26T14:24:46Z">
+        <test-method status="PASS" signature="TC001()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@68c4039c]" name="TC001" duration-ms="5041" started-at="2020-09-26T15:55:16Z" finished-at="2020-09-26T15:55:21Z">
           <reporter-output>
             <line>
               <![CDATA[Launch Browser]]>
@@ -48,7 +84,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@419c5f1a]" name="afterTest" is-config="true" duration-ms="28" started-at="2020-09-26T14:24:46Z" finished-at="2020-09-26T14:24:46Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@68c4039c]" name="afterTest" is-config="true" duration-ms="41" started-at="2020-09-26T15:55:21Z" finished-at="2020-09-26T15:55:21Z">
           <reporter-output>
             <line>
               <![CDATA[Close Browser]]>
@@ -56,6 +92,74 @@
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TC001 -->
+    <test name="TC002" duration-ms="7914" started-at="2020-09-26T15:55:21Z" finished-at="2020-09-26T15:55:29Z">
+      <class name="com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@6eebc39e]" name="beforeTest" is-config="true" duration-ms="3016" started-at="2020-09-26T15:55:21Z" finished-at="2020-09-26T15:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC001()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@6eebc39e]" name="TC001" duration-ms="4865" started-at="2020-09-26T15:55:24Z" finished-at="2020-09-26T15:55:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch Browser]]>
+            </line>
+            <line>
+              <![CDATA[Click Chapter 1]]>
+            </line>
+            <line>
+              <![CDATA[Click Radio button]]>
+            </line>
+            <line>
+              <![CDATA[Select dropdown by value in chapter 1]]>
+            </line>
+            <line>
+              <![CDATA[Navigate Home Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@6eebc39e]" name="afterTest" is-config="true" duration-ms="30" started-at="2020-09-26T15:55:29Z" finished-at="2020-09-26T15:55:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown -->
+    </test> <!-- TC002 -->
+    <test name="TC003" duration-ms="7922" started-at="2020-09-26T15:55:29Z" finished-at="2020-09-26T15:55:37Z">
+      <class name="com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@31ef45e3]" name="beforeTest" is-config="true" duration-ms="3021" started-at="2020-09-26T15:55:29Z" finished-at="2020-09-26T15:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC001()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@31ef45e3]" name="TC001" duration-ms="4864" started-at="2020-09-26T15:55:32Z" finished-at="2020-09-26T15:55:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch Browser]]>
+            </line>
+            <line>
+              <![CDATA[Click Chapter 1]]>
+            </line>
+            <line>
+              <![CDATA[Click Radio button]]>
+            </line>
+            <line>
+              <![CDATA[Select dropdown by value in chapter 1]]>
+            </line>
+            <line>
+              <![CDATA[Navigate Home Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown@31ef45e3]" name="afterTest" is-config="true" duration-ms="37" started-at="2020-09-26T15:55:37Z" finished-at="2020-09-26T15:55:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automatedtester.qa.POM_TC001_Chapter1_ValidateDropdown -->
+    </test> <!-- TC003 -->
+  </suite> <!-- RegressionAutomatedQA -->
 </testng-results>
